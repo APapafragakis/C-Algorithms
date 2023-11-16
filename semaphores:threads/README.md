@@ -34,3 +34,4 @@ This C program, developed by Alexandros Papafragakis, simulates a student readin
 
 Enjoy simulating the student reading room experience!
 
+-Assingment 2 for Operating System CS-345 in Computer Science Department.
