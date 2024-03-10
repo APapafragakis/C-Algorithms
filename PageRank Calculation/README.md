@@ -4,15 +4,11 @@
 
 This program calculates the PageRank of nodes in a graph using parallel processing techniques. It employs the PageRank algorithm with a damping factor.
 
-<details>
 <summary>Dependencies</summary>
 
 - POSIX Threads (pthread library)
 - Standard C libraries: stdio.h, stdlib.h, math.h
 
-</details>
-
-<details>
 <summary>Usage</summary>
 
 To use the program, follow these steps:
@@ -34,9 +30,6 @@ To use the program, follow these steps:
     ./pagerank tests/Email-Enron.txt 4
     ```
 
-</details>
-
-<details>
 <summary>Description</summary>
 
 This program reads a graph as a list of edges stored in a text file, where each line describes an edge in the format "src dst", representing the starting and ending node of the edge. The node numbers are 64-bit integers, i.e., long integers in text format (read using scanf("%ld") or atol()). Comment lines (starting with the character #) should be ignored for speedup measurements.
@@ -49,12 +42,13 @@ The program calculates the PageRank of each node in parallel by executing the Pa
 
 The output is generated in the form of a text file named pagerank.csv, containing pairs of numbers per line: "node, pagerank". For example, given a graph with the following edges:
 
+```
 1 2
 2 3
 3 1
 4 5
 5 4
-
+```
 
 the output for this graph would be the pagerank.csv file with contents:
 
@@ -68,18 +62,11 @@ node, pagerank
 
 This file represents the PageRank of each node in the graph.
 
-</details>
-
-<details>
 <summary>Authors and Acknowledgment</summary>
 
 I, Alexandros Papadfragkakis, ID 5084, am the sole author of this project.
 
-</details>
-
-<details>
 <summary>License</summary>
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-</details>
