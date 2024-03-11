@@ -1,18 +1,3 @@
-#!/usr/bin/env python3
-
-###################################################
-#
-# file: private.py
-#
-# @Author:   Iacovos G. Kolokasis
-# @Version:  14-02-2020
-# @email:    kolokasis@ics.forth.gr
-#
-# Change the visibility of the forked project to
-# private and add TAs as members with developer
-# role in the project
-#
-###################################################
 import os
 import gitlab
 import optparse
