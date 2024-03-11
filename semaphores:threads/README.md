@@ -1,4 +1,4 @@
-# Student Reading Room Synchronization Program
+# Parallelized Student Reading Room Synchronization Program
 
 ## Overview
 This C program, developed by Alexandros Papafragakis, simulates a student reading room in a school where there is space for 8 students. The program uses threads and semaphores to enforce rules for student entry, ensuring that no more than 8 students are present in the reading room at the same time.
