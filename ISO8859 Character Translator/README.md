@@ -1,13 +1,40 @@
 # ISO8859 Character Translator
 
-## Purpose
-This program is designed to translate text from ISO8859-7 characters (Greek and English) to ISO8859-1 characters (English). 
-It serves as a review of basic C programming concepts and the use of GNU/UNIX tools like gcc, shell, and text editors (emacs/vim/nano).
+## Description
 
-<details>
-<summary>Usage</summary>
+The program reads characters from standard input (stdin) and converts Greek characters to their corresponding Latin characters according to the defined mappings. It utilizes a state machine approach to determine the current state and the appropriate action to take for each input character.
 
-To run the program, compile it using the following command:
+## Usage
 
-```bash
-gcc -Wall -ansi -pedantic -o translate translate.c
+1. Compile the program using a C compiler such as `gcc`:
+
+    ```bash
+    gcc main.c -o converter
+    ```
+
+2. Run the program and provide input through standard input:
+
+    ```bash
+    ./converter
+    ```
+
+3. Input Greek characters and observe the converted output.
+
+4. To exit the program, press `Ctrl + D`.
+
+## Mapping
+
+The program uses a mapping table to convert Greek characters to their Latin equivalents. The mapping is defined within the `Initialize_CharMap` function in the source code.
+
+## State Machine
+
+The program employs a state machine to manage the conversion process efficiently. It transitions between different states based on the input characters and applies the corresponding conversion functions.
+
+## Files
+
+- `translate.c`: The main source code file containing the implementation of the conversion program.
+- `README.md`: This file, providing information about the program and instructions for usage.
+
+## License
+
+This program is open-source software licensed under the [MIT License](LICENSE).
