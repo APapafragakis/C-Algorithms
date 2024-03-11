@@ -9,7 +9,7 @@ The program reads characters from standard input (stdin) and converts Greek char
 1. Compile the program using a C compiler such as `gcc`:
 
     ```bash
-    gcc main.c -o converter
+    gcc translate.c -o converter
     ```
 
 2. Run the program and provide input through standard input:
