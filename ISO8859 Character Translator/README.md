@@ -1,6 +1,4 @@
 # ISO8859 Character Translator
-The program reads characters from standard input (stdin) and converts Greek characters to their corresponding Latin characters according to the defined mappings. It utilizes a state machine approach to determine the current state and the appropriate action to take for each input character.
-
 ## Description
 
 The program reads characters from standard input (stdin) and converts Greek characters to their corresponding Latin characters according to the defined mappings. It utilizes a state machine approach to determine the current state and the appropriate action to take for each input character.
