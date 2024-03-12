@@ -17,4 +17,3 @@ Classic game of Tic-Tac-Toe, developed by Alexandros Papafragakis. This console-
 2. Follow the on-screen instructions to make your moves.
 3. Aim to align three symbols horizontally, vertically, or diagonally to win.
 
-Enjoy the game! 
