@@ -26,7 +26,7 @@ The shell should support input and output redirection:
 - Append output redirection using the ">>" symbol: Standard output of the command is appended to the specified file without overwriting previous content (e.g., ls >> y.txt).
 
 ## Usage
-Compile the C shell using a C compiler, and run the compiled executable
+Compile the C shell using a C compiler, and run the compiled executable.
 
 ```bash
 gcc -o hy345sh hy345sh.c
