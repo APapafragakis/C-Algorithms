@@ -2,22 +2,6 @@
 #include <stdlib.h>
 #include "grid.h"
 
-/*typedef struct grid_s {
-  struct { 
-    int count;       
-    int choices[10];       
-
-  } cell[9][9];     
-  int unique;       
-} Grid_T;  */
-
-/*
-typedef struct choice_s {
-  int i,j,n;	
-} Choice_T;
-*/
-
-
 Grid_T eliminate_row(Grid_T g, Choice_T c){
     int j = 0;
     for (j = 0; j < 9; j++) {
