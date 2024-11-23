@@ -56,7 +56,9 @@ clean:
 make all
 ```
 ## Run the program
+```bash
 ./semaphores
+```
 
 ### Enter the number of students when prompted
 ### Example:
