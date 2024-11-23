@@ -51,11 +51,11 @@ $(TARGET): $(SRC)
 clean:
 	rm -f $(TARGET)
 ```
-## Compile the program
+### Compile the program
 ```bash
 make all
 ```
-## Run the program
+### Run the program
 ```bash
 ./semaphores
 ```
@@ -67,6 +67,6 @@ make all
  20
 ```
 
-## Clean up compiled files
+### Clean up compiled files
 ```bash
 make clean
