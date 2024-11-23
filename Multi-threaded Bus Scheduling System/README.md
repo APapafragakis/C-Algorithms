@@ -52,15 +52,19 @@ clean:
 	rm -f $(TARGET)
 ```
 ## Compile the program
+```bash
 make all
-
+```
 ## Run the program
 ./semaphores
 
 ### Enter the number of students when prompted
 ### Example:
-### Enter the number of students:
-### 20
+```bash
+ Enter the number of students:
+ 20
+```
 
 ## Clean up compiled files
+```bash
 make clean
