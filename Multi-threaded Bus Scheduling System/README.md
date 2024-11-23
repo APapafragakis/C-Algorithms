@@ -60,7 +60,6 @@ make all
 ./semaphores
 ```
 
-### Enter the number of students when prompted
 ### Example:
 ```bash
  Enter the number of students:
