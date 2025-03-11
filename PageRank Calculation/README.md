@@ -64,7 +64,7 @@ This file represents the PageRank of each node in the graph.
 
 <summary>Authors and Acknowledgment</summary>
 
-I, Alexandros Papadfragkakis, ID 5084, am the sole author of this project.
+Alexandros Papadfragkakis, ID 5084, am the sole author of this project.
 
 <summary>License</summary>
 
